@@ -6,13 +6,14 @@ public class Exercise02 {
         double r = 15;
         double a, l;
 
-        // TODO: ↓ Fórmula del área de un círculoS: a = radio * radio * Número PI
 
-        System.out.println("Area: " + a);
+        //  ↓ Fórmula del área de un círculoS: a = radio * radio * Número PI
 
-        // TODO: ↓ Fórmula de la longitud de una circunferencia: l = 2 * radio * Número PI
+        System.out.println("Area: " + r * r * Math.PI);
 
-        System.out.println("Longitud:  " + l);
+        //  ↓ Fórmula de la longitud de una circunferencia: l = 2 * radio * Número PI
+
+        System.out.println("Longitud:  " + 2 * r* Math.PI);
 
     }
 }
